@@ -16,10 +16,7 @@ BuildRequires:  python3-psutil
 BuildRequires:  python3-nose
 
 Requires:       bubblewrap
-Requires:       python3-nose
 Requires:       python3-psutil
-
-%{?python_provide:%python_provide python-%{srcname}}
 
 
 %description
