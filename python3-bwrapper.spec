@@ -27,7 +27,7 @@ The "bwrapper" python3 module is a wrapper around the "bubblewrap" CLI.
 
 
 %prep
-%autosetup
+%autosetup -n %{srcname}-%{version}
 
 
 %build
